@@ -4,5 +4,6 @@
         "Steph",
         "camelcase",
         "stephclausen"
-    ]
+    ],
+    "editor.formatOnSave": true
 }
