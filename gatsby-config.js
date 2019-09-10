@@ -184,7 +184,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: `UA-70963607-1`,
+        trackingId: ``,
         // Puts tracking script in the head instead of the body
         head: true,
         // enable ip anonymization
@@ -203,16 +203,5 @@ module.exports = {
      * [Sharp]: https://github.com/lovell/sharp
      */
     `gatsby-transformer-sharp`,
-
-    /**
-     * Generates meta redirect html files for
-     * redirecting on any static file host.
-     *
-     * **NOTE** This plugin must be the last entry in the `plugins` array.
-     *
-     * @name gatsby-plugin-meta-redirect
-     * @see https://www.gatsbyjs.org/packages/gatsby-plugin-meta-redirect
-     */
-    `gatsby-plugin-meta-redirect`
   ]
 }
