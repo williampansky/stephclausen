@@ -2858,6 +2858,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.5:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+
 clean-stack@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
@@ -10242,7 +10247,7 @@ prompts@^2.2.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -10557,6 +10562,20 @@ react-side-effect@^1.1.0:
   dependencies:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
+
+react-structured-data@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/react-structured-data/-/react-structured-data-0.0.14.tgz#7a851cb65ef26d63244e3b6d5370c751d0a86a33"
+  integrity sha512-B1elbCypGIuLGSrJ3ESqLKepYotELbCpAZBAxsn1DeH2c40XI01Ll568xjGvipTqxvetscuCqm9/wD4GF+DIXw==
+  dependencies:
+    prop-types "^15.6.0"
+
+react-sweet-progress@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-sweet-progress/-/react-sweet-progress-1.1.2.tgz#b27c6baa7c08a12cf0896565431ba477af249892"
+  integrity sha512-FUfiKpox5LJ9YTeK/HsaLp/oOsuxWBJQir6oAYKLY5nsa2pb04PtxzddSy6Y1fn8osaILpXIcItJRQYnHp42CA==
+  dependencies:
+    classnames "^2.2.5"
 
 react@^16.9.0:
   version "16.9.0"
@@ -12419,6 +12438,16 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typeface-playfair-display@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-playfair-display/-/typeface-playfair-display-0.0.72.tgz#1e82434340d83a496abc5c2c9d086bfc0a6c3741"
+  integrity sha512-iXf4FcXNI/OLxHQQ72/7gXuu34fiX6DttlB8uruNu971AXgwr2OL6GWS5efRXrEwA35M0adVvXe4hKZWVwao5Q==
+
+typeface-rozha-one@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-rozha-one/-/typeface-rozha-one-0.0.71.tgz#e70ec79d8182298b396bbed27d8a189024ebe30b"
+  integrity sha512-9JLyM5+bIYkGq3ztgJexS4CONQeZvsvht23X1ya2bQobQCEMcmdlBn7s263x7GPQRqIA8Leuwo5HmscfIlO4JA==
 
 ua-parser-js@^0.7.18:
   version "0.7.20"

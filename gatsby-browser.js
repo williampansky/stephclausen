@@ -4,4 +4,8 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import 'typeface-playfair-display';
+// import 'typeface-rozha-one';
+import './node_modules/normalize.css/normalize.css';
+import 'react-sweet-progress/lib/style.css';
+import '@/styles/base.css';
